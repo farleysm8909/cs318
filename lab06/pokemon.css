@@ -1,0 +1,41 @@
+.card {
+    width: 200px;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+.card img {width: 100%;}
+.name { 
+text-align: center;
+font-weight: bold;
+font-family: sans-serif;
+}
+.paragraph {
+    font-family: sans-serif;
+}
+#card1 {
+    background-color: aquamarine;
+}
+#card2 {
+    background-color: darkmagenta
+}
+#card3 {
+    background-color: azure
+}
+#card4 {
+    background-color:coral
+}
+#card5 {
+    background-color:chartreuse
+}
+#card6 {
+    background-color:darkred
+}
+.favorite {
+    border-style: dotted;
+    border-width: thick;
+    border-color: crimson;
+}
