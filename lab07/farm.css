@@ -1,13 +1,14 @@
 body {
     background: url(11192446363_bc7babb59b_k.jpg);
     background-repeat: no-repeat;
+    margin-top: 533px;
+    background-color: beige;
 }
 div {
-    margin-top: 533px;
+
     text-align: right;
     color: darkred;
     font-size: 24pt;
-    background-color: beige;
 }
 p {
     text-align: right;
@@ -17,7 +18,4 @@ img {
     text-align: left;
     width: 100px;
     height: auto;
-}
-span {
-    margin-left: 0;
 }
