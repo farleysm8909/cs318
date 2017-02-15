@@ -1,0 +1,23 @@
+body {
+    background: url(11192446363_bc7babb59b_k.jpg);
+    background-repeat: no-repeat;
+}
+div {
+    margin-top: 533px;
+    text-align: right;
+    color: darkred;
+    font-size: 24pt;
+    background-color: beige;
+}
+p {
+    text-align: right;
+    font-size: 14pt;
+}
+img {
+    text-align: left;
+    width: 100px;
+    height: auto;
+}
+span {
+    margin-left: 0;
+}

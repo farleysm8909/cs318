@@ -1,0 +1,13 @@
+body {
+    background-image: url(Star-field-3.JPG);
+    color: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-image: url(christmas2015fullmoon.png);
+    font-size: 32pt;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
