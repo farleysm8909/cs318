@@ -1,0 +1,30 @@
+body {
+    box-sizing: border-box;
+    background-color: beige;
+}
+.stamp {
+  display: inline-block;  
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-style:dashed;
+    border-width: 4px;
+    border-color: forestgreen;
+    box-shadow: 8px 5px 5px grey;
+    background-position: top right, center;
+    background-size: auto 50px, auto 300px;
+    background-repeat: no-repeat;
+    
+}
+#Italy {
+  background-image:  url(ItalyFlag.gif), url(italymap.jpg);
+}
+#France {
+    background-image: url(Franceflag.gif), url(francemap.jpg);
+}
+#Australia {
+    background-image: url(australiaflag.gif), url(australiamap.jpg);
+}
+#Canada {
+    background-image: url(canadaflag.gif), url(canadamap.jpg);
+}
