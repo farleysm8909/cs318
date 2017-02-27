@@ -1,0 +1,68 @@
+* {
+box-sizing: border-box;
+display: inline-block;
+}
+body {
+    background-image: url(cork1.jpg);
+    background-repeat: repeat;
+}
+.photo {
+    margin: 10px 50px 10px 50px;
+    position: relative;
+    
+}
+.pin {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    box-shadow: none;
+}
+
+img {
+    border-right: 20px;
+    border-top: 20px;
+    border-left: 20px;
+    border-bottom: 60px;
+    border-color: white;
+    border-style: solid;
+    box-shadow: -10px 10px 50px black; 
+ 
+}
+
+@font-face {
+    font-family: Marker;
+    src: url(luna.ttf);
+}
+
+.label {
+    font-family: marker;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: auto;
+    font-size: 20px;
+    text-align:center;
+}
+
+#pig {
+   top: 10px;
+    left: 30px;
+    transform:rotate(5deg);
+}
+#butterfly {
+   top: 10px;
+    left: 30px;
+    transform:rotate(-3deg); 
+}
+#goat {
+   top: 10px;
+    left: 30px;
+    transform:rotate(2deg); 

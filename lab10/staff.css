@@ -1,0 +1,45 @@
+#jan {
+    background-image: url(https://cdn.uwec.edu/athena/images/6085/LarsonJan_2013-two-three-tall-portrait.jpg);
+    
+}
+#janet {
+    background-image: url(https://cdn.uwec.edu/athena/images/4922/Driever.Janet-two-three-tall-portrait.jpg);
+    
+}
+#martha {
+    background-image: url(https://cdn.uwec.edu/athena/images/5027/Fay.Martha-two-three-tall-portrait.jpg);
+    
+}
+#peter {
+    background-image: url(https://cdn.uwec.edu/athena/images/4924/headshot2large-two-three-tall-portrait.jpg);
+    
+}
+.photo {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    border-radius: 100%;
+    box-shadow: 10px 10px 20px darkgray;
+    position: relative;
+    margin: 25px 25px 25px 25px;
+}
+.photo:hover {
+    box-shadow: 5px 5px 5px black;
+    top: 5px;
+    left: 5px;
+}
+.name {
+    font-size: 30pt;
+    font-family: sans-serif;
+    color: burlywood;
+    text-shadow: 1px 2px black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    text-align: center;
+    
+    
+}
+

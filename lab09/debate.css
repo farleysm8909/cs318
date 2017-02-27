@@ -40,7 +40,7 @@
 }
 h1 {
     margin:auto;
-    padding-top: 7px;
+    padding-top: 5px;
     text-align: center;
 }
 #gradient {
@@ -48,5 +48,5 @@ h1 {
     height: 50px;
     background-image: linear-gradient(to right, red, blue); 
     margin-bottom: 30px;
-    box-shadow: inset 3px 3px 5px darkgray;
+    box-shadow: inset 0 -7px 7px white;
 }
