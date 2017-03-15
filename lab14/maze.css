@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+li {
+   list-style-type: none; 
+    display: inline;
+    margin: 5px 10px 5px 10px;
+    text-align: center;
+}
+header {
+    background-color: forestgreen;
+    color: white;
+    font-family: Labyrinth;
+    padding: 1px;
+    font-size: 24pt;
+    text-align: center;
+  
+}
+@font-face {
+     font-family: Labyrinth;
+    src: url(LabyrinthNF.ttf);
+}
+nav {
+    background-color: #78FF26;
+    font-size: 22pt;
+    padding: 1px 0;
+    text-align: center;
+    font-family: Labyrinth;
+    color: black;  
+}
+img {
+    width: 600px;
+    height: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px
+}
+body {
+    background-color: #A8FF73;
+}
+ul {
+    padding-left: 0;
+}
+@media (max-width: 600px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+footer {
+    font-size: 16pt;
+}
