@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+ul {
+    position: relative;
+}
+.color {
+    height: 11px;
+    width: 43px;
+    color: red;
+    position: absolute;
+    top: 50%
+    height: 100px;
+    margin-top: -13px;
+}
+#red {
+    background-color: red;
+}
+#orange {
+    background-color: orange;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+}
+#blue {
+    background-color: blue;
+}
+#square {
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    margin: 10px;
+}
+#circle {
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 10px;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-width: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    vertical-align: bottom;
+    
+}
+#one {
+    border-bottom-color: dimgray;
+    border-left-color: dimgray;
+    border-right-color: dimgray;
+    border-top-color: white;
+}
+#two {
+    border-bottom-color: white;
+    border-left-color: dimgray;
+    border-right-color: dimgray;
+    border-top-color: white;
+}
+#three {
+    border-bottom-color: white;
+    border-left-color: dimgray;
+    border-right-color: white;
+    border-top-color: white;
+}
+#four {
+    border-color: white;
+}
