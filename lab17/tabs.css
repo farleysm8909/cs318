@@ -1,0 +1,31 @@
+.tabbutton {
+    display: inline-block;
+    background-color: lightblue;
+    width: 120px;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
+.tabbutton:focus {
+    background-color: darkblue;
+}
+#tabview0 {
+    background-color: lightblue;
+}
+#tabparent {
+    position: relative;
+    display: inline-block;
+}
+.tabview {
+    position: absolute;
+    
+    background-color: darkblue;
+}
+#tabview0 {
+    display: block;
+}
+#tabbutton3:focus ~ #tabview3 {
+    display: block;
+}
