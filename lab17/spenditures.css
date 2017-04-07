@@ -15,24 +15,27 @@ th:first-child {
     text-align: left;
 }
 .label {
+    display: inline-block;
+    position: relative;
+}
+nav {
     color: white;
     background-color: navy;
     font-family: sans-serif;
-    display: inline-block;
-    padding: 5px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 2px;
+    margin-left: 0;
+    margin-top: 0;
+}
+nav li {
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: white;
-    position: relative;
-}
-ul {
-    list-style-type: none;
-    padding-left: 0;
-    background-color: navy;
-    padding-bottom: 5px;
     padding-top: 5px;
-    margin-left: 0;
-    margin-top: 0;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
 header h1 {
     background-color: darkred;
@@ -41,7 +44,7 @@ header h1 {
     font-family: sans-serif;
     margin-bottom: 1px;
 }
-nav li:hover {
+.label:hover {
     cursor: pointer;
     background-color: darkgray;
 }
@@ -52,21 +55,29 @@ nav li:hover {
     background-color: darkgray;
     box-shadow: 5px 5px 10px black;
     display: none;
+    list-style: none;
+}
+.menu li:hover {
+    background-color: lightgray;
+}
+.menu li {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    border-right: none;
 }
 a:link {
     text-decoration: none;
     color: white;
-    display: block;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
+    display: block;   
 }
-a:link:last-child {
+.menu li:last-child {
     border-bottom: none;
     
 }
 .label:hover .menu {
     display: block;
+    background-color:darkgray;
 }
 #A {
     position: absolute;
@@ -83,27 +94,40 @@ a:link:last-child {
     left: 0px;
     width: 70px; 
 }
+#mobile {
+    display: none;
+}
 @media (max-width: 40em) {
     nav {
         display: none;
     }
-    header div {
+    #mobile {
         position: absolute;
-        &#9776;
-        top: 0;
-        right: 100px;
+        display: block;
+        border-left: 1px solid white;
+        right: 30px;
+        top: 20px;
         bottom: 0;
-        border-left-width: 1px;
-        border-left-color: white;
-        font-size: 32pt;
+        font-size: 24pt;
+        height: 48px;
+        padding-left: 3px;
+        padding-right: 3px;
     }
-    header div {
+    .mobileMenu {
         position: absolute;
-        text-align: left;
-        top: 100%;
-        background-color: darkgray;
-        box-shadow: 5px 5px 10px black;
         display: none;
-        bottom:auto;
+        padding-left: 4px;
+        background-color: darkgray;
+        top: 29px;
+        right: 0;
+        width: 80px;
+    }
+    #mobile:hover .mobileMenu {
+        display: block;
+        font-size: 14pt;
+        list-style: none;
+    }
+    .mobileMenu li:hover {
+        background-color: lightgray;
     }
 }

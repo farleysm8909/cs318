@@ -7,12 +7,17 @@
     border-top-right-radius: 15px;
     cursor: pointer;
     outline: none;
+    font-size: 21pt;
+    text-align: center;
+    padding-top: 10px;
 }
 .tabbutton:focus {
     background-color: darkblue;
+    color: white;
 }
 #tabview0 {
     background-color: lightblue;
+    display: block;
 }
 #tabparent {
     position: relative;
@@ -20,12 +25,20 @@
 }
 .tabview {
     position: absolute;
-    
+    left: 0;
     background-color: darkblue;
+    color: white;
+    top: 50px;
+    display: none;
+    height: 50px;
+    width: 368px;
 }
-#tabview0 {
+#a:focus ~ #d {
     display: block;
 }
-#tabbutton3:focus ~ #tabview3 {
+#b:focus ~ #e {
+    display: block;
+}
+#c:focus ~ #f {
     display: block;
 }
