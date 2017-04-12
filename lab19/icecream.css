@@ -1,0 +1,22 @@
+* { 
+    box-sizing: border-box;
+}
+#box {
+    background-color: lightblue;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    font-size: 16pt;
+}
+h1 {
+    text-align: center;
+}
+.column {
+    width: 35%;
+}
+label {
+    float: left;
+}
+input, select {
+ margin: 5px;   
+}
