@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display: inline-block; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 16pt;
+    color: black;
+    padding: 10px;
+    background-color: lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.active {
+    background-color: beige;
+}
+
+img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home {
+    background-color: lightblue;   
+}
+
+h1, h2 {
+    text-align: center;
+}
