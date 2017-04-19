@@ -11,12 +11,17 @@
 h1 {
     text-align: center;
 }
-.column {
-    width: 35%;
-}
+
 label {
     float: left;
+    text-align: right;
+     width: 35%;
 }
-input, select {
- margin: 5px;   
+select {
+    margin: 5px;
+    width: 60%
 }
+#stretch {
+    width: 60%;
+    margin: 5px;
+    }
