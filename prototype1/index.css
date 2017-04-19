@@ -25,7 +25,7 @@ li a {
     background-color: lightgray;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
+} 
 
 .active {
     background-color: beige;
@@ -38,10 +38,19 @@ img {
     margin-right: auto;
 }
 
-.home {
+.home, .weddinginfo {
     background-color: lightblue;   
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+.weddinginfo p {
+    margin-left: 30%;
+    margin-right: 30%
 }
