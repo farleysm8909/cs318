@@ -1,16 +1,17 @@
+/* All */ 
 * {
     box-sizing: border-box;
 }
 
 nav {
     display: inline-block; 
-    
+    background-color: lightsalmon;
+    width: 100%;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     text-align: center;
 }
 
@@ -22,43 +23,83 @@ li a {
     text-decoration: none;
     font-size: 16pt;
     color: black;
-    padding: 10px;
-    background-color: lightsalmon;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 } 
 
 .active {
     background-color: darksalmon;
 }
 
-img {
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.home, .weddinginfo {
-    background-color: lightblue;   
+body {
+    margin: 0;
+    background-color: lightblue;
 }
 
 h1, h2, h3 {
     text-align: center;
 }
 
-h2 {
-    margin-bottom: 0;
+/* Home */ 
+
+.home img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: auto;
 }
 
-h3 {
+/* Wedding Info */ 
+
+.weddinginfo h1 {
+    margin: 50px 0;
+    font-size: 32pt;
+}
+.weddinginfo h2 {
+    margin-bottom: 5px;
+    font-size: 24pt;
+}
+
+/* why doesn't this work?
+
+.weddinginfo h2:nth-child(2) {
+    margin-bottom: 5px;
+*/
+}
+
+.weddinginfo h3 {
     margin-top: 0;
-}
-body {
-    margin: 0;
+    margin-bottom: 0;
+    font-size: 18pt;
 }
 
-.weddinginfo p {
+.weddinginfo, .ourStory p {
     margin-left: 30%;
-    margin-right: 30%
+    margin-right: 30%;
 }
+
+.weddinginfo #camp img, .weddinginfo #placeholder img {
+    height: auto;
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weddinginfo .ceremony {
+    margin-bottom: 50px;
+}
+
+.mapouter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* OUR STORY */
+
+.ourStory h1 {
+  font-size: 32 pt;  
+}
+
