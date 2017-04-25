@@ -5,19 +5,55 @@
 
 nav {
     display: inline-block; 
-    background-color: lightsalmon;
+    background-color: white;
     width: 100%;
     position: relative;
+    padding-top: 20px;
+}
+
+#mobile {
+    display: none;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     text-align: center;
+    padding: 2px;
+    font-family: "playfair display";
 }
 
 nav li {
     display: inline-block;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: white;
+    padding: 5px 5px 5px 0;
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.weddinginfo, .ourStory, .attractions, .registry h1 {
+    margin-bottom: 50px;
+    margin-top: 10px;   
+}
+
+a:link {
+    display: block;
+}
+
+/* why doesn't this work? */
+.label:hover {
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+.label {
+    display: inline-block;
+    position: relative;
 }
 
 li a {
@@ -29,16 +65,19 @@ li a {
 } 
 
 .active {
-    background-color: darksalmon;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
 }
 
 body {
     margin: 0;
-    background-color: lightblue;
+    background-color: white;
 }
 
 h1, h2, h3, h4 {
     text-align: center;
+    font-family: "playfair display";
 }
 
 /* I tried 
@@ -63,37 +102,77 @@ nav ul li:hover {
     margin-right: auto;
     height: auto;
     width: 800px;
+    margin-top: 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
 }
 
-/*
 @media (max-width: 480px) {
-    nav {
-        
+    #mobile {
+        display: block;
+        float: right;
+        font-size: 24pt;
+        height: 46px;
+        width: 30px;
     }
-} */
+    
+    p {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    
+    nav {
+        display: none;
+    }
+    
+    .mobileMenu {
+        list-style: none;
+        position: absolute;
+        right: 0;
+        top: 28px;
+        z-index: 100;
+        text-align: left;
+        padding-left: 0;
+        background-color: white;
+        box-shadow: 5px 5px 5px black;
+        display: none;
+    }
+    
+    #mobile:hover .mobileMenu {
+        display: block;
+        font-size: 14pt;
+        list-style: none;
+    }
+    
+    .mobileMenu li:hover {
+        background-color: skyblue;
+    }
+   
+    /* why doesn't this work? */
+    header {
+        background-color: skyblue;
+    } 
+     
 
 /* Wedding Info */ 
 
-.weddinginfo h1 {
-    margin: 50px 0;
-    font-size: 32pt;
 }
 .weddinginfo h2 {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     font-size: 24pt;
 }
 
-/* why doesn't this work?
+/* why doesn't this work? */
 
 .weddinginfo h2:nth-child(2) {
     margin-bottom: 5px;
-*/
 }
 
 .weddinginfo h3 {
     margin-top: 0;
-    margin-bottom: 0;
-    font-size: 18pt;
+    margin-bottom: 15px;
+    font-size: 16pt;
 }
 
 .weddinginfo h4 {
@@ -107,11 +186,6 @@ nav ul li:hover {
 }
 */
 
-p {
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
 .weddinginfo img {
     height: auto;
     width: 550px;
@@ -120,10 +194,21 @@ p {
     margin-right: auto;
 }
 
+.border img {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
 .weddinginfo .ceremony {
     margin-bottom: 50px;
 }
 
+.weddinginfo p {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .mapouter {
     margin-left: auto;
     margin-right: auto;
@@ -134,6 +219,8 @@ p {
 .party {
     display: inline-block;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .party img {
@@ -141,11 +228,19 @@ p {
     width: 200px;
     height: auto;
     float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
 
 .party img:nth-child(3n+4) {
     clear: left;
 }
+
+.weddinginfo .partyheader {
+    padding-bottom: 20px;
+}
+
 /* OUR STORY */
 
 .ourStory h1 {
@@ -158,6 +253,32 @@ p {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-bottom: 80px;
+}
+
+.ourStory img:last-of-type {
+    margin-bottom: 15px;
+}
+
+.ourStory p {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.ourStory .firstcharacter {
+    float: left;
+    font-family: "playfair display"; /*why not?*/
+    font-size: 40pt;
+    padding-top: 0px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+    line-height: 51px;
+    margin-top: -5px;
 }
 /* ATTRACTIONS */
 
@@ -170,7 +291,7 @@ p {
 }
 
 .attractions .places #fish {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .attractions .places h2 {
@@ -186,6 +307,19 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
+.stores p {
+    text-align: center;
+    font-size: 16pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.stores a:link {
+    text-decoration: none;
+}
+
 
 
 
