@@ -148,16 +148,28 @@ nav ul li:hover {
     .mobileMenu li:hover {
         background-color: skyblue;
     }
-   
-    /* why doesn't this work? */
-    header {
-        background-color: skyblue;
-    } 
+    
+    .home img {
+        width: 100%;
+    }
      
+}
+
+@media (max-width: 800px) {
+    .home img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .weddinginfo .ceremony img, #gmap_canvas {
+        width: 100%;
+    }
+}
 
 /* Wedding Info */ 
 
-}
+
 .weddinginfo h2 {
     margin-bottom: 10px;
     font-size: 24pt;
@@ -272,7 +284,6 @@ nav ul li:hover {
 
 .ourStory .firstcharacter {
     float: left;
-    font-family: "playfair display"; /*why not?*/
     font-size: 40pt;
     padding-top: 0px;
     padding-bottom: 4px;
