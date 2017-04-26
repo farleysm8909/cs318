@@ -42,7 +42,7 @@ p {
 }
 
 a:link {
-    display: block;
+    text-decoration: none;
 }
 
 /* why doesn't this work? */
@@ -189,9 +189,6 @@ nav ul li:hover {
 .weddinginfo img {
     height: auto;
     width: 550px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .border img {
@@ -214,6 +211,9 @@ nav ul li:hover {
     margin-right: auto;
 }
 
+.ceremony {
+    text-align: center;
+}
 /* Wedding Party */
 
 .party {
@@ -233,7 +233,7 @@ nav ul li:hover {
     border-color: black;
 }
 
-.party img:nth-child(3n+4) {
+.party img:nth-child(3n+1) {
     clear: left;
 }
 
@@ -285,9 +285,6 @@ nav ul li:hover {
 .attractions .places img {
     width: 300px;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
 
 .attractions .places #fish {
@@ -298,14 +295,14 @@ nav ul li:hover {
     margin-top: 50px;
 }
 
+.attractions .places {
+    text-align: center;
+}
 /* REGISTRY */
 
 .stores img {
     width: 400px;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .stores p {
@@ -316,8 +313,8 @@ nav ul li:hover {
     margin-bottom: 30px;
 }
 
-.stores a:link {
-    text-decoration: none;
+.stores {
+    text-align: center;
 }
 
 
