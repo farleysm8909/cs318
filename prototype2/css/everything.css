@@ -1,0 +1,80 @@
+/* All */ 
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display: inline-block; 
+    background-color: white;
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+}
+
+#mobile {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding: 2px;
+    font-family: "playfair display";
+}
+
+nav li {
+    display: inline-block;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: white;
+    padding: 5px 5px 5px 0;
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+a:link {
+    text-decoration: none;
+}
+
+/* why doesn't this work? */
+.label:hover {
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+.label {
+    display: inline-block;
+    position: relative;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 16pt;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.active {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.weddinginfo, .ourStory, .attractions, .registry h1 {
+    margin-bottom: 50px;
+    margin-top: 10px;   
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: "playfair display";
+}

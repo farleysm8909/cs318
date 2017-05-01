@@ -1,0 +1,38 @@
+/* OUR STORY */
+
+.ourStory h1 {
+  font-size: 32 pt;  
+}
+
+.ourStory img {
+    width: auto;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-bottom: 80px;
+}
+
+.ourStory img:last-of-type {
+    margin-bottom: 15px;
+}
+
+.ourStory p {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.ourStory .firstcharacter {
+    float: left;
+    font-size: 40pt;
+    padding-top: 0px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+    line-height: 51px;
+    margin-top: -5px;
+}

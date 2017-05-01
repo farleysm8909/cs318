@@ -1,0 +1,18 @@
+/* ATTRACTIONS */
+
+.attractions .places img {
+    width: 300px;
+    height: auto;
+}
+
+.attractions .places #fish {
+    margin-bottom: 50px;
+}
+
+.attractions .places h2 {
+    margin-top: 50px;
+}
+
+.attractions .places {
+    text-align: center;
+}
