@@ -1,6 +1,6 @@
 /* Wedding Info */ 
-@media (max-width: 550px) {
-    .weddinginfo .ceremony img, #gmap_canvas {
+@media (max-width: 750px) {
+    .weddinginfo .ceremony img, #gmap_canvas, #catering {
         width: 100%;
     }
 }
@@ -36,7 +36,7 @@
 
 .weddinginfo img {
     height: auto;
-    width: 550px;
+    width: 750px;
 }
 
 .border img {
@@ -50,7 +50,7 @@
 }
 
 .weddinginfo p {
-    width: 500px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -62,6 +62,20 @@
 .ceremony {
     text-align: center;
 }
+
+#catering {
+    width: 500px;
+    height: auto;
+}
+
+.directions {
+    width: 730px;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 /* Wedding Party */
 
 .party {
@@ -70,17 +84,17 @@
     margin-left: auto;
     margin-right: auto;
     float: left;
-    padding: 15px;
+    padding: 30px;
     font-family: "playfair display";
 }
 
 .party img {
     display: block;
-    width: 200px;
+    width: 250px;
     height: auto;
     float: left;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: black;
 }
 
@@ -93,6 +107,28 @@
 }
 
 .align {
-    
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.bold {
+    font-weight: 800;
+    font-size: 16pt;
+}
+
+@media (max-width: 950px) {
+    .party img {
+        width: 100%;
+    }
+    /* ASK why doesn't this work? Want: 2X6 grid*/
+    .party:nth-child(3n+1) {
+        clear: left;
+    }
+}
+
+@media (max-width: 635px) {
+     .party {
+        clear: left;
+    }
+}

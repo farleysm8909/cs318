@@ -1,10 +1,10 @@
 /* ATTRACTIONS */
 
 .attractions .places img {
-    width: 300px;
+    width: 400px;
     height: auto;
 }
-
+/*
 .attractions .places #fish {
     margin-bottom: 50px;
 }
@@ -12,7 +12,24 @@
 .attractions .places h2 {
     margin-top: 50px;
 }
-
+*/
 .attractions .places {
     text-align: center;
+    display: inline-block;
+    padding: 30px;
+    height: 590px;
+    width: 500px;
+    vertical-align: top;
+}
+
+.attractions {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:1600px) {
+    .places {
+        width: 100%;
+    }  
 }
