@@ -21,7 +21,7 @@
 }
 
 .ourStory p {
-    width: 650px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -35,4 +35,18 @@
     padding-right: 8px;
     line-height: 51px;
     margin-top: -5px;
+}
+
+@media (max-width: 598px) {
+    #larz {
+        width: 100%;
+        height: auto;
+    }
+}
+   
+@media (max-width: 400px) {
+     #ring {
+        width: 100%;
+        height: auto;
+    }
 }
