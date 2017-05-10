@@ -1,12 +1,8 @@
 /* OUR STORY */
 
-.ourStory h1 {
-  font-size: 32 pt;  
-}
-
 .ourStory img {
-    width: auto;
-    height: 400px;
+    width: 700px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -14,6 +10,11 @@
     border-width: 2px;
     border-color: black;
     margin-bottom: 80px;
+}
+
+#prop_img {
+    max-width: 400px;
+    height: auto;
 }
 
 .ourStory img:last-of-type {
@@ -34,6 +35,7 @@
     padding-bottom: 4px;
     padding-right: 8px;
     line-height: 51px;
+<<<<<<< HEAD
     margin-top: -5px;
 }
 
@@ -48,5 +50,28 @@
      #ring {
         width: 100%;
         height: auto;
+=======
+    margin-top: -4px;
+}
+
+#proposalLink {
+    text-align: center;
+    display: block;
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
+
+.rotate {
+    transform: rotate(-90deg);
+}
+
+#closeup {
+    object-fit: contain; /*ask?*/
+}
+
+@media (max-width: 700px) {
+    .ourStory img {
+        width: 100%;
+>>>>>>> origin/master
     }
 }

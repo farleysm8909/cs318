@@ -17,6 +17,41 @@
         margin-right: 30%;
     }
     
+<<<<<<< HEAD
+=======
+    nav {
+        display: none;
+    }
+    
+    .mobileMenu {
+        list-style: none;
+        position: absolute;
+        right: 0;
+        top: 28px;
+        z-index: 100;
+        text-align: left;
+        padding-left: 0;
+        background-color: white;
+        box-shadow: 5px 5px 5px black;
+        display: none;
+    }
+    
+    #mobile:hover .mobileMenu {
+        display: block;
+        font-size: 14pt;
+        list-style: none;
+    }
+    
+    .mobileMenu li:hover {
+        background-color: skyblue;
+    }
+    
+    .home img {
+        width: 100%;
+    } 
+}
+
+>>>>>>> origin/master
 @media (max-width: 1000px) {
     .home img {
         width: 100%;

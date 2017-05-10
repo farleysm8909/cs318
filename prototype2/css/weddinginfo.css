@@ -117,18 +117,30 @@
     font-size: 16pt;
 }
 
+.header_two {
+    padding-top: 40px;
+}
+
 @media (max-width: 950px) {
     .party img {
         width: 100%;
     }
-    /* ASK why doesn't this work? Want: 2X6 grid*/
-    .party:nth-child(3n+1) {
+    
+    .party:nth-child(2n+1) {
         clear: left;
     }
+    
+    .party:nth-child(3n+1) {
+        clear: none;
+}
 }
 
-@media (max-width: 635px) {
-     .party {
+@media (max-width: 620px) {
+    .party img {
+        width: 100%;
+    }
+    
+    .party:nth-child(n+1) {
         clear: left;
     }
 }
