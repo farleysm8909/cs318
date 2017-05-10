@@ -35,7 +35,6 @@
     padding-bottom: 4px;
     padding-right: 8px;
     line-height: 51px;
-<<<<<<< HEAD
     margin-top: -5px;
 }
 
@@ -44,14 +43,6 @@
         width: 100%;
         height: auto;
     }
-}
-   
-@media (max-width: 400px) {
-     #ring {
-        width: 100%;
-        height: auto;
-=======
-    margin-top: -4px;
 }
 
 #proposalLink {
@@ -72,6 +63,5 @@
 @media (max-width: 700px) {
     .ourStory img {
         width: 100%;
->>>>>>> origin/master
     }
 }
