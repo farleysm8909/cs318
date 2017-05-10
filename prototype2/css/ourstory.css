@@ -1,12 +1,8 @@
 /* OUR STORY */
 
-.ourStory h1 {
-  font-size: 32 pt;  
-}
-
 .ourStory img {
-    width: auto;
-    height: 400px;
+    width: 700px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -16,12 +12,17 @@
     margin-bottom: 80px;
 }
 
+#prop_img {
+    max-width: 400px;
+    height: auto;
+}
+
 .ourStory img:last-of-type {
     margin-bottom: 15px;
 }
 
 .ourStory p {
-    width: 650px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -34,5 +35,26 @@
     padding-bottom: 4px;
     padding-right: 8px;
     line-height: 51px;
-    margin-top: -5px;
+    margin-top: -4px;
+}
+
+#proposalLink {
+    text-align: center;
+    display: block;
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
+
+.rotate {
+    transform: rotate(-90deg);
+}
+
+#closeup {
+    object-fit: contain; /*ask?*/
+}
+
+@media (max-width: 700px) {
+    .ourStory img {
+        width: 100%;
+    }
 }
