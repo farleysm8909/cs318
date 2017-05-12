@@ -144,3 +144,17 @@
         clear: left;
     }
 }
+
+#theWedding {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    #theWedding {
+       display: block;
+    }
+    
+    #weddingInformation {
+        display: none;
+    }
+} 

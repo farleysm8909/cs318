@@ -22,3 +22,14 @@
         width: 100%;
     }
 }
+
+@media (max-width: 480px) {
+    #mobile {
+        top:0px;
+    }
+    
+    .home {
+        position: absolute;
+        top: 60px;
+    }
+}

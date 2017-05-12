@@ -22,15 +22,10 @@
 }
 
 .attractions {
-    width: 1600px;
+    width: 1350px;
     text-align: center;
+    margin: auto;
 }
-
-/*@media (max-width: 1600px) {
-    .places {
-        width: 100%;
-    }
-}*/
 
 @media (max-width: 1325px) {
     .places img {
@@ -44,6 +39,10 @@
     .places:nth-child(3n+1) {
         clear: none;
     }
+    
+    .attractions {
+        width: 900px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -54,5 +53,8 @@
     .places:nth-child(n+1) {
         clear: left;
     }
-   
+    
+    .attractions {
+        width: 450px;
+    }
 }

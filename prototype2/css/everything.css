@@ -16,14 +16,40 @@ nav {
     display: none;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #428bca;
+}
+
+.label:hover {
+    cursor: pointer;
+    background-color: #428bca;
+    text-align: center;
+}
+
+.label {
+    display: inline-block;
+    position: relative;
+    line-height:normal;
+    font-weight: normal;
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+
 @media (max-width: 480px) {
     
     #mobile {
         display: block;
-        float: right;
         font-size: 24pt;
         height: 46px;
-        width: 30px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        bottom: 0;
     }
     
     nav {
@@ -50,13 +76,17 @@ nav {
     }
     
     .mobileMenu li:hover {
-        background-color: skyblue;
+        background-color: #428bca;
+        color: black;
     }
     
     .home img {
         width: 100%;
+    } 
+    
+    a:hover {
+        color: black;
     }
-     
 }
 
 nav ul {
@@ -78,20 +108,6 @@ nav li {
 p {
     margin-left: 20%;
     margin-right: 20%;
-}
-a:link {
-    text-decoration: none;
-}
-
-/* why doesn't this work? */
-.label:hover {
-    cursor: pointer;
-    background-color: skyblue;
-}
-
-.label {
-    display: inline-block;
-    position: relative;
 }
 
 li a {
@@ -124,5 +140,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
- font-size: 30pt;   
+    font-size: 30pt; 
+    font-weight: bold;
+    line-height: normal;
 }
