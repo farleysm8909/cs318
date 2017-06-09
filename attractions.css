@@ -1,0 +1,60 @@
+/* ATTRACTIONS */
+
+.places img {
+    width: 350px;
+    height: auto;
+    float: left;
+    display: block;
+}
+
+.places {
+    text-align: center;
+    display: inline-block;
+    padding: 30px;
+    height: 590px;
+    width: 450px;
+    vertical-align: top;
+    float: left;
+}
+
+.places:nth-child(3n+1) {
+    clear: left;
+}
+
+.attractions {
+    width: 1350px;
+    text-align: center;
+    margin: auto;
+}
+
+@media (max-width: 1325px) {
+    .places img {
+        width: 100%;
+    }
+    
+    .places:nth-child(2n+1) {
+        clear: left;
+    }
+    
+    .places:nth-child(3n+1) {
+        clear: none;
+    }
+    
+    .attractions {
+        width: 900px;
+    }
+}
+
+@media (max-width: 900px) {
+    .places img {
+        width: 100%;
+    }
+    
+    .places:nth-child(n+1) {
+        clear: left;
+    }
+    
+    .attractions {
+        width: 450px;
+    }
+}

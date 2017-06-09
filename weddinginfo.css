@@ -1,0 +1,160 @@
+/* Wedding Info */ 
+@media (max-width: 750px) {
+    .weddinginfo .ceremony img, #gmap_canvas, #catering {
+        width: 100%;
+    }
+}
+
+.weddinginfo h2 {
+    margin-bottom: 10px;
+    font-size: 24pt;
+    clear: left;
+}
+
+/* why doesn't this work? */
+
+.weddinginfo h2:nth-child(2) {
+    margin-bottom: 5px;
+}
+
+.weddinginfo h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16pt;
+}
+
+.weddinginfo h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* why doesn't this work? 
+.weddinginfo h2:nth-of-type(4) {
+    margin-bottom: 10px;
+}
+*/
+
+.weddinginfo img {
+    height: auto;
+    width: 750px;
+}
+
+.border img {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.weddinginfo .ceremony {
+    margin-bottom: 50px;
+}
+
+.weddinginfo p {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mapouter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ceremony {
+    text-align: center;
+}
+
+#catering {
+    max-width: 500px;
+    height: auto;
+}
+
+.directions {
+    max-width: 730px;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Wedding Party */
+
+.party {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    padding: 30px;
+    font-family: "playfair display";
+}
+
+.party img {
+    display: block;
+    width: 250px;
+    height: auto;
+    float: left;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.party:nth-child(3n+1) {
+    clear: left;
+}
+
+.weddinginfo .partyheader {
+    padding-bottom: 20px;
+}
+
+.align {
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bold {
+    font-weight: 800;
+    font-size: 16pt;
+}
+
+.header_two {
+    padding-top: 40px;
+}
+
+@media (max-width: 950px) {
+    .party img {
+        width: 100%;
+    }
+    
+    .party:nth-child(2n+1) {
+        clear: left;
+    }
+    
+    .party:nth-child(3n+1) {
+        clear: none;
+}
+}
+
+@media (max-width: 620px) {
+    .party img {
+        width: 100%;
+    }
+    
+    .party:nth-child(n+1) {
+        clear: left;
+    }
+}
+
+#theWedding {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    #theWedding {
+       display: block;
+    }
+    
+    #weddingInformation {
+        display: none;
+    }
+} 
