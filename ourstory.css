@@ -38,9 +38,10 @@
     margin-top: -5px;
 }
 
-#iframe {
+iframe .ourStory {
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 
 @media (max-width: 598px) {
