@@ -39,9 +39,6 @@
 }
 
 iframe {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
     text-align: center;
 }
 
@@ -69,6 +66,12 @@ iframe {
 
 @media (max-width: 700px) {
     .ourStory img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 560px) {
+    iframe {
         width: 100%;
     }
 }
