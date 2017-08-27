@@ -38,7 +38,7 @@
     margin-top: -5px;
 }
 
-iframe {
+.ourStory iframe {
     text-align: center;
 }
 
@@ -71,7 +71,7 @@ iframe {
 }
 
 @media (max-width: 560px) {
-    iframe {
+    .ourStory iframe {
         width: 100%;
     }
 }
