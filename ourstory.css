@@ -1,6 +1,6 @@
 /* OUR STORY */
 
-.ourStory img {
+.ourStory img, #larz {
     width: 700px;
     height: auto;
     margin-left: auto;
@@ -41,6 +41,7 @@
 .video {
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 
 @media (max-width: 598px) {
